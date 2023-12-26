@@ -1,0 +1,2 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[185],{3167:function(e,n,t){Promise.resolve().then(t.t.bind(t,8822,23)),Promise.resolve().then(t.t.bind(t,3385,23)),Promise.resolve().then(t.t.bind(t,128,23))},3385:function(){},128:function(){},8822:function(e){e.exports={style:{fontFamily:"'__Inter_e66fe9', '__Inter_Fallback_e66fe9'",fontStyle:"normal"},className:"__className_e66fe9"}}},function(e){e.O(0,[971,938,744],function(){return e(e.s=3167)}),_N_E=e.O()}]);
+//# sourceMappingURL=layout-49eb4d0a50d79c7b.js.map
