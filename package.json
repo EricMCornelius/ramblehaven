@@ -20,6 +20,8 @@
     "date-fns": "^3.0.1",
     "framer-motion": "^10.16.16",
     "github-markdown-css": "^5.5.0",
+    "googleapis": "^129.0.0",
+    "googlephotos": "^0.3.5",
     "lodash-es": "^4.17.21",
     "mdast-util-to-string": "^4.0.0",
     "nanoid": "^5.0.4",

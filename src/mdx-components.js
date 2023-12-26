@@ -16,11 +16,25 @@ const ResponsiveImage = props => {
   </div>;
 };
 
+const Video = props => {
+  const {src} = props;
+
+  // TODO: figure out better way to access current static context than assigning to globals...
+  const {slug} = global;
+
+  console.log('VIDEO:', props, slug);
+
+  const resolved = `/${slug}/${src}`;
+
+  return <source {...props} src={resolved}/>;
+};
+
 export function useMDXComponents(components) {
   return {
     ...components,
     Carousel,
     img: ResponsiveImage,
-    Image: ResponsiveImage
+    Image: ResponsiveImage,
+    VideoSource: Video
   };
 }
